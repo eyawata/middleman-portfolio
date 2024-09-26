@@ -1,34 +1,41 @@
-- name: Longest Word Game
-  description: Decent description of the app
-  image: projects/placeholder.png
+- name: Cocktail Mister
+  description: Create cocktail recipes
+  image: projects/cocktailmister.png
   url: https://www.google.com
-  github: https://www.github.com
+  github: https://github.com/eyawata/rails-mister-cocktail
   online: true
 
 - name: Movie Watchlist
-  description: Decent description of the app
+  description: Keep track of favorite movies
   image: projects/placeholder.png
   url: https://www.google.com
-  github: https://www.github.com
+  github: https://github.com/eyawata/rails-watch-list
   online: true
 
-- name: Airbnb
-  description: Decent description of the app
-  image: projects/placeholder.png
+- name: Guided Escapes
+  description: Airbnb experiences clone
+  image: projects/ge-landing.png
   url: https://www.google.com
-  github: https://www.github.com
+  github: https://github.com/eyawata/guided-escapes
   online: true
 
-- name: Final project
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
+- name: Lemonade Stand
+  description: Point-of-sales for market vendors
+  image: projects/Lemonadeshow1.png
+  url: https://www.lemonadestand.store
+  github: https://github.com/eyawata/lemonade-stand
   online: true
 
-- name: Yelp
+- name: Summit Social
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
-  github: https://www.github.com
+  github: https://github.com/tot19/summit_social
+  online: false
+
+- name: GamePlan
+  description: AI-powered Gaming Tasks
+  image: projects/gameplan.png
+  url: https://www.google.com
+  github: https://www.github.com/eyawata
   online: false
