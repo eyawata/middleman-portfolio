@@ -11,19 +11,90 @@
 .left-section {
   width: 80%;
   position: relative;
+  margin-left: 10%;
 }
 
 .left-section img {
-  width: 70%;
+  width: 523px;
   height: auto;
-  top:10%;
+  position: absolute;
+  top: 126px;
+}
+
+.overlay-image {
+  z-index: 1;
 }
 
 .left-section h1 {
   position: absolute;
-  top: 10%;
-  left: -10%;
+  top: 17%;
+  left: 2%;
   padding: 10px;
   text-wrap: nowrap;
   transform: rotate(-8deg);
+}
+
+.right-section {
+  align-content: center;
+}
+
+.bio {
+  margin-top: 20%;
+}
+
+
+@media (max-width: 1000px) {
+  .title-main {
+    font-size: 8rem;
+  }
+
+  .left-section img {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 140px;
+  }
+
+  .left-section {
+    margin-left: 3%;
+  }
+
+  .bio {
+    margin-top: -10%;
+    margin-left: 24%;
+  }
+}
+
+@media (max-width: 700px) {
+  .title-main {
+    font-size: 6rem;
+  }
+
+  .left-section img {
+    width: 260px;
+    height: auto;
+    position: absolute;
+    top: 120px;
+  }
+
+  .left-section {
+    margin-left: 0
+  }
+}
+
+@media (max-width: 400px) {
+  .title-main {
+    font-size: 3rem;
+  }
+
+  .left-section img {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 100px;
+  }
+
+  .left-section {
+    margin-left: 0
+  }
 }
