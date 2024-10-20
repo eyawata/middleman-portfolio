@@ -1,8 +1,11 @@
 .banner {
   height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
 }
 
-.title-main {
+#title-main {
   font-family: $banner-font;
   font-size: 12rem;
   color: $primary-mint;
@@ -27,7 +30,7 @@
 
 .left-section h1 {
   position: absolute;
-  top: 17%;
+  top: 25%;
   left: 2%;
   padding: 10px;
   text-wrap: nowrap;
@@ -43,58 +46,88 @@
 }
 
 
-@media (max-width: 1000px) {
-  .title-main {
-    font-size: 8rem;
+@media (max-width: 900px) {
+  .banner {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+
+  #title-main {
+    font-size: 7rem;
+    top: 38%;
+    left: 0%;
   }
 
   .left-section img {
-    width: 400px;
-    height: auto;
-    position: absolute;
-    top: 140px;
-  }
-
-  .left-section {
-    margin-left: 3%;
-  }
-
-  .bio {
-    margin-top: -10%;
-    margin-left: 24%;
-  }
-}
-
-@media (max-width: 700px) {
-  .title-main {
-    font-size: 6rem;
-  }
-
-  .left-section img {
-    width: 260px;
-    height: auto;
-    position: absolute;
-    top: 120px;
-  }
-
-  .left-section {
-    margin-left: 0
-  }
-}
-
-@media (max-width: 400px) {
-  .title-main {
-    font-size: 3rem;
-  }
-
-  .left-section img {
-    width: 150px;
+    width: 350px;
     height: auto;
     position: absolute;
     top: 100px;
   }
 
   .left-section {
-    margin-left: 0
+    margin-top: -2%;
+    // margin-left: 13%;
+  }
+
+  .right-section{ 
+    margin-top: 10px;
+  }
+
+  .bio {
+    margin-left: 33px;
+    margin-top: 37px;
+  }
+}
+
+@media (max-width: 700px) {
+
+  #title-main {
+    font-size: 5rem;
+    top: 31%;
+    left: 0%
+  }
+
+  .left-section img {
+    width: 288px;
+    height: auto;
+    position: absolute;
+    top: 100px;
+  }
+
+  .left-section {
+    margin-top: -2%;
+    // margin-left: 13%;
+  }
+
+  .bio {
+    margin-left: 33px;
+    margin-top: 37px;
+  }
+}
+
+@media (max-width: 400px) {
+
+  #title-main {
+    font-size: 4rem;
+    top: 35%;
+  }
+
+  .left-section img {
+    width: 272px;
+    height: auto;
+    position: absolute;
+    top: 100px;
+  }
+
+  .left-section {
+    margin-top: -2%;
+    // margin-left: 13%;
+  }
+
+  .bio {
+    margin-left: 10px;
   }
 }
